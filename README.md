@@ -134,17 +134,17 @@ We looked at our models above, by question, and evaluated each question individu
 #### Which actors generate the highest ROI? How does that compare to those in films in the top 25% ROI?
 ***
 #### Visual 1
-![graph1](./images/viz1.png)
+![graph1](./images/img1.png)
 
 #### Which directors generate the highest ROI? How does that compare to those in films in the top 25% ROI?
 ***
-#### Visual 1
-![graph1](./images/viz1.png)
+#### Visual 2
+![graph1](./images/img2.png)
 
 #### Which writers generate the highest ROI? How does that compare to those in films in the top 25% ROI?
 ***
-#### Visual 1
-![graph1](./images/viz1.png)
+#### Visual 3
+![graph1](./images/img3.png)
 
 For **actors, directors and writers**, the bar plots helped us look at how often individuals have appeared in films and the making of them over time, and how that compares to the returns they have helped generate. We are making our recommendation based on the personnel with the highest ROI in all films, as well as specifically those films with the top 25% returns. We see there is a lot of overlap here, which makes us even more confident in these recommendations. One thing we will be mindful of, is that a specific actor, director, or writer is not a solve all and should not be the only focus when creating films. That being said, our data and analysis makes it abundantly clear that having high quality actors, directors, and writers is likely to lead to a profitable film and high returns. It is no accident that many of these figures are household names, and no surprise that the numbers further validate their reputations. 
 
@@ -153,8 +153,8 @@ We will be crystal clear in communicating to Microsoft that there will be many o
 
 ### Question Two: What is the distribution between `production_budget` , by bin, and `worldwide_gross`?
 ***
-#### Visual 1
-![graph1](./images/viz1.png)
+#### Visual 4
+![graph1](./images/img4.png)
 
 For **production budget**, we looked at a scatterplot to see the correlation between budget and worldwide gross. We saw a positive but not incredibly strong relationship there. This helped us decide to narrow down our models a bit, and split the data based on high and low grossing films. We looked at the distribution of the two categories in histograms. Knowing our goal is to help Microsoft bring in as much money as possible, we decided to narrow in on the highest grossing films, searching for any budget patterns in that data. The box and whisker plot helped us look at the budget bins we created, the grossing distribution among those bins. We also looked at this in a bar plot, which was repetitive but helpful to see in another format. Overall, our box and whisker plot helped lead us to our precise budget recommendation.
 
@@ -167,22 +167,22 @@ Finally, increasing the budget from **268-300 million leads to a grossing increa
 
 #### Which month are the most movies released? Which month within the Top 10% of ROI? Which month generates the highest average ROI?
 ***
-#### Visual 1
-![graph1](./images/viz1.png)
+#### Visual 5
+![graph1](./images/img5.png)
 
 For **release month**, the bar plots helped us easily compare the frequency of occurrence and average ROI of each month. Although the overall count of occurrences is important, we saw that December was the most common release month, but was low when it came to generating ROI. However, when it came to looking only at occurrences of films that were in the top 10% of returns, June sneaks in there, as well as July, October, and December. Once we took it one step further, only looking at average ROI per month, **June came out on top**. **This is the month that we will recommend to Microsoft**, seeing as our measure of success is ROI, and on average, releasing a film in June has historically seen over a 700% return on average. We want to equip Microsoft with as thorough and comprehensive of a recommendation as possible. Because of this we will mention that after June, we recommend releasing films in **July, October, and December**, in respective order.
 
 #### How is the runtime data distributed? How does this data relate to ROI?
 *** 
-#### Visual 1
-![graph1](./images/viz1.png)
+#### Visual 6
+![graph1](./images/img6.png)
 
 For **runtime**, the histogram and scatterplot were helpful, but only looked at the runtime data on its own. These plots helped us decide to bin our ROI data to get a better look at how runtime spread among different categories of return for films. **We will recommend the range of runtime minutes** from the 50%-75% percentiles of the Top 5% of our data. This is the **range of 99-110 minutes**. We will advise Microsoft **not dip below 99 minutes**, and if anything **let runtime run up until 118 minutes**, but not above that point. 118 minutes is the longest runtime that we see at the 75% runtime mark of our bins. By doing this, we are also including the runtime metrics that we see in 50% of all other bins of our data, so we can be confident that these runtimes have historically and will continue to lead to high returns on films. 
 
 #### Which studio has released the most films? Which within the Top 10% of ROI? Which studio generates the highest average ROI?
 *** 
-#### Visual 1
-![graph1](./images/viz1.png)
+#### Visual 7
+![graph1](./images/img7.png)
 
 For **studio**, we saw that when we looked at average ROI, instead of studio counts, our recommendation would change significantly. Looking closer at studios with the highest average ROI, we saw many of them are international studios. Emulating the practices of international studios may not provide Microsoft with the best environment to be successful domestically. For instance, UTV is known as Walt Disney Studio Films in India. Earlier, we grouped many of the obvious studio labels together, but also did not want to skew the data grouping labels that may have been less appropriate. Now we know that:
 
@@ -192,17 +192,7 @@ For **studio**, we saw that when we looked at average ROI, instead of studio cou
 * `Eros` is an Indian motion picture production and distribution company, they have generated a very high return over time, but again, we would be mindful advising Microsoft to use international studios. 
 
 Because of this analysis, our studio recommendation focuses on the overlap of studios in our studio count by top 10% ROI and the average ROI of those studios in our plots. This leaves us recommending Microsoft look to studios, studio members, and studio subsidiaries of **Universal, Warner Brothers, Paramount, and Sony.** 
-
 ***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-![graph1](./images/viz1.png)
 
 ## Conclusions
 
