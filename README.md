@@ -241,10 +241,10 @@ For any additional questions, please contact **Hana Kerner & haych20@gmail.com**
 Describe the structure of your repository and its contents, for example:
 
 ```
+├── images                              <- Both sourced externally and generated from code
+├── zippedData                          <- Both sourced externally and generated from code
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+└── presentation.pdf                    <- PDF version of project presentation
 ```
 
