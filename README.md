@@ -16,6 +16,7 @@ The characteristics and trends that we will be forming recommendations around in
 - Release Month 
 - Runtime 
 - Studio
+***
 
 ## Business Problem
 
@@ -43,6 +44,7 @@ Things to consider include:
 * How does studio relate to return? Does one create superior returns than its counterparts?
 ***
 These questions are crucial in deciding how we will advise Microsoft to move forward, as we will have a better understanding of the industry, and thus, an understanding of what they should focus on to see the greatest possible returns. 
+***
 
 ## Data
 
@@ -63,7 +65,6 @@ We also briefly open and look at two other datasets, shown below, but ultimately
 [TheMovieDB](https://www.themoviedb.org/)
 
 [Rotten Tomatoes](https://www.rottentomatoes.com/)
-
 
 ***
 
